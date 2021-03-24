@@ -31,7 +31,7 @@ fn main() -> crossterm::Result<()> {
     let key_mapping = hash_map! {
         'a' => "aug",
         'b' => "supertonic",
-        'B' => "vermindet supertonic"
+        'B' => "vermindet supertonic",
         'c' => "cadanza",
         'd' => "dominant",
         'D' => "Dominant",
@@ -45,15 +45,15 @@ fn main() -> crossterm::Result<()> {
         'k' => "k64",
         'K' => "K64",
         'l' => "vermindet leading",
-        'L' => "minor leading"
+        'L' => "minor leading",
         'm' => "mediant",
-        'M' => "Mediant"
+        'M' => "Mediant",
         'n' => "nature",
 
         'p' => "pause",
 
         's' => "subdominant",
-        'S' => "Subdominant"
+        'S' => "Subdominant",
         't' => "tonica",
         'T' => "Tonica",
         'u' => "submidiant",
