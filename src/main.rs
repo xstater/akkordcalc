@@ -29,8 +29,37 @@ macro_rules! hash_map {
 
 fn main() -> crossterm::Result<()> {
     let key_mapping = hash_map! {
-        'a' => "cnm",
-        'b' => "nmsl"
+        'a' => "aug",
+        'b' => "supertonic",
+        'B' => "vermindet supertonic"
+        'c' => "cadanza",
+        'd' => "dominant",
+        'D' => "Dominant",
+        'e' => "aeolian",
+
+        'f' => "finale",
+        'g' => "grand",
+        'h' => "halbvermindet",
+        'i' => "Ionian",
+
+        'k' => "k64",
+        'K' => "K64",
+        'l' => "vermindet leading",
+        'L' => "minor leading"
+        'm' => "mediant",
+        'M' => "Mediant"
+        'n' => "nature",
+
+        'p' => "pause",
+
+        's' => "subdominant",
+        'S' => "Subdominant"
+        't' => "tonica",
+        'T' => "Tonica",
+        'u' => "submidiant",
+        'U' => "Submidiant",
+        'v' => "vermindet"
+
     };
 
     let mut key_seq = vec![];
